@@ -1,5 +1,6 @@
 from magic_mirror import MagicMirror
 
+
 def start():
     MagicMirror()
 

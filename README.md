@@ -12,6 +12,8 @@ This is a very simple Magic Mirror GUI, written in Python for Raspberry Pi.
 
 ```python
 python3 -m pip install tk
+python3 -m pip install requests
+python3 -m pip install pytz
 ```
 
 
@@ -21,3 +23,19 @@ python3 -m pip install tk
 export DISPLAY=:0
 python3 main.py
 ```
+
+## Thanks to
+<span style="z-index:50;font-size:0.9em; font-weight: bold;">
+      <img src="https://theysaidso.com/branding/theysaidso.png" height="20" width="20" alt="theysaidso.com"/>
+      <a href="https://theysaidso.com" title="Powered by quotes from theysaidso.com" style="color: #ccc; margin-left: 4px; vertical-align: middle;">
+        They Said So®
+      </a>
+</span>
+
+https://dadjokes.io/
+
+https://jokes.one/api/joke/
+
+https://zenquotes.io/
+
+https://type.fit/api/quotes

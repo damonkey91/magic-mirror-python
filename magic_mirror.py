@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import *
+from screens.standard import Standard
 from screens.time_is_money import TimeIsMoney
+from screens.all_widgets_screen import AllWidgets
 
 class MagicMirror:
     def __init__(self):
@@ -18,11 +20,11 @@ class MagicMirror:
 
     def _startup_screen(self):
         self.startupscreen = tk.Tk()
-        self.startupscreen.title('Magic Mirror: Python Mod')
+        self.startupscreen.title('Magic Mirror Python')
         welcometext = tk.Label(self.startupscreen, font=('caviar dreams', 40), bg='black', fg='white')
         self.startupscreen.configure(background='black')
         self.startupscreen.overrideredirect(True)
-        welcometext.config(text='Mirror: Vuoristo Mod')
+        welcometext.config(text='Magic mirror!')
         welcometext.pack(side=LEFT, padx=120, pady=80)
         # Gets the requested values of the height and widht.
         windowWidth = self.startupscreen.winfo_reqwidth()
@@ -36,4 +38,7 @@ class MagicMirror:
         self.startupscreen.update()
 
     def _add_screen(self, root):
-        TimeIsMoney(root)
+        Standard(root)
+        #TimeIsMoney(root)
+        #AllWidgets(root)
+
