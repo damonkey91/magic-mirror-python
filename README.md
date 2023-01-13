@@ -14,6 +14,7 @@ This is a very simple Magic Mirror GUI, written in Python for Raspberry Pi.
 python3 -m pip install tk
 python3 -m pip install requests
 python3 -m pip install pytz
+python3 -m pip install python-dateutil
 ```
 
 

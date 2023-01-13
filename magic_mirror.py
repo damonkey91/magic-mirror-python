@@ -3,6 +3,7 @@ from tkinter import *
 from screens.standard import Standard
 from screens.time_is_money import TimeIsMoney
 from screens.all_widgets_screen import AllWidgets
+from screens.count_down_until import CountDown
 
 class MagicMirror:
     def __init__(self):
@@ -38,7 +39,8 @@ class MagicMirror:
         self.startupscreen.update()
 
     def _add_screen(self, root):
-        Standard(root)
+        CountDown(root)
+        #Standard(root)
         #TimeIsMoney(root)
         #AllWidgets(root)
 
